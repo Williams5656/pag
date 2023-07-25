@@ -24,7 +24,7 @@ def home():
     for record in myresult:
         insertObject.append(dict(zip(columnNames, record)))
     cursor.close()
-    return render_template('inicio.html', data=insertObject)
+    return render_template('index.html', data=insertObject)
 
 @app.route('/nueva_pagina', methods=['POST'])
 def nueva_pagina():
