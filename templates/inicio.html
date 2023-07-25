@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylos.css">
+    <link rel="stylesheet" href="stylos.css">
+
+    <style>
+       
+
+        /* Additional custom CSS for centering the form */
+        .centered-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Adjust the height as needed */
+        }
+        .custom-input {
+            width: 200px; /* You can adjust the width value as per your preference */
+        }
+    </style>
+</head>
+<body>
+    
+
+    <h1 class="text-center mt-5 mb-5 text-primary">Sistema de Pagos Centro Sur</h1>
+    <div class="container">
+        <div class="card shadow">
+            <div class="card-body">
+                <form   action="/nueva_pagina" method="POST" style="  width: 300px;">
+                    
+                        <div class="col">
+                            <label>Medidor</label>
+                            <input type="text" class="form-control mb-3" name="usuario">
+                        </div>    
+                        <div class="col">
+                            <label>Cedula</label>
+                            <input type="text" class="form-control mb-3" name="contrasena">
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-primary mb-3 mt-4" type="submit">Ingresar</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
