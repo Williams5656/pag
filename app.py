@@ -12,7 +12,7 @@ DB_USER = 'usermysql'
 DB_PASSWORD = 'Softec2023wt'
 DB_NAME = 'pag'
 
-#Rutas de la aplicación
+#Rutas de la aplicación fffff
 @app.route('/')
 def home():
     cursor = db.database.cursor()
